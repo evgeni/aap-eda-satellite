@@ -18,5 +18,4 @@
   ## Define the action we should take should the condition be met
 
       action:
-        run_playbook:
-          name: update.yml
+        debug:
