@@ -17,5 +17,8 @@
 
   ## Define the action we should take should the condition be met
 
-      action:
-        debug:
+      actions:
+        - debug:
+        - run_job_template:
+            name: Update DEV
+            organization: Default
